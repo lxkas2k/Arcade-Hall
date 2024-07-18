@@ -57,9 +57,8 @@ Um die Node.js-Version zu starten, folgen Sie diesen Schritten:
 
 1. Stellen Sie sicher, dass XAMPP mit Apache und MySQL gestartet ist.
 2. Öffnen Sie ein Terminal und navigieren Sie zum Projektordner.
-3. Navigieren in der Visual Studio Code Anwendung zu der Kategorie Terminal, und gebe die folgenden Commands ein, um die notwendigen Packages herunterzuladen.
-   #-> npm install express body-parser mysql express-session multer
-   #-> npm install ejs
+3. Navigieren in der Visual Studio Code Anwendung zu der Kategorie Terminal, und gebe den folgenden Command ein (bei Punkt 4 -> ganz wichtig!), um die notwendigen Packages herunterzuladen
+4. -> npm install express body-parser mysql express-session multer ejs
 5. Geben Sie den Befehl node server.js (falls es nicht funktioniert: node .\server.js) ein, um den Server zu starten.
 6. Die Webseite ist unter localhost:3000 erreichbar.
 
