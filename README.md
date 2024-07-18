@@ -1,7 +1,8 @@
-# Arcade Hall
+# Arcade Hall 
 
-Dieses Projekt ist eine Website, die mithilfe von HTML, CSS und JavaScript entwickelt wurde. 
-In dieser Readme-Datei findest du Informationen zur Installation von Visual Studio Code, Node.js und den erforderlichen Erweiterungen. Außerdem wird erklärt, wie du den Projektordner öffnen und die Website aufrufen kannst.
+Arcade Hall ist eine Spielewebsite mit integrierter Datenbank, die sowohl in PHP als auch in Node.js verfügbar ist. Nutzer können verschiedene Spiele und Anwendungen nutzen, wobei jeder neu registrierte Benutzer zu Beginn Tickets erhält, die zum Spielen und Gewinnen weiterer Tickets eingesetzt werden können. Zusätzlich können durch das Spielen weitere Tickets gewonnen werden.
+
+Die README-Datei erklärt, worum es in diesem Projekt geht und wie man es benutzt. Sie hilft neuen Nutzern und Entwicklern, sich schnell zurechtzufinden und loszulegen.
 
 ## Installation
 
@@ -27,6 +28,14 @@ Visual Studio Code ist ein leistungsstarker und plattformübergreifender Code-Ed
 3. Wähle "Datei" und dann "Ordner öffnen" aus dem Menü.
 4. Navigiere zum heruntergeladenen Projektordner und wähle ihn aus.
 
+## Datenbank einrichten
+
+1. Die Datei arcade.sql herunterladen.
+2. Einloggen und Datenbank auswählen: Melde dich bei phpMyAdmin an und wähle die Datenbank aus, in die du importieren möchtest.
+3. Importieren auswählen: Klicke auf "Importieren" oben im Menü.
+4. Datei auswählen: Klicke auf "Datei auswählen" und suche die SQL-Datei auf deinem Computer, die du importieren möchtest.
+5. Import starten: Klicke auf "OK", um den Importvorgang zu starten. phpMyAdmin wird die Datei hochladen und die darin enthaltenen SQL-Befehle ausführen.
+
 ## Website aufrufen (PHP Version)
 
 Um die PHP-Version zu starten, folgen Sie diesen Schritten:
@@ -42,8 +51,9 @@ Um die Node.js-Version zu starten, folgen Sie diesen Schritten:
 
 1. Stellen Sie sicher, dass XAMPP mit Apache und MySQL gestartet ist.
 2. Öffnen Sie ein Terminal und navigieren Sie zum Projektordner.
-3. Geben Sie den Befehl node server.js (falls es nicht funktioniert: node .\server.js) ein, um den Server zu starten.
-4. Die Webseite ist unter localhost:3000 erreichbar.
+3. Navigieren in der Visual Studio Code Anwendung zu der Kategorie Terminal, und gebe den folgenden Command ein, um die notwendigen Packages herunterzuladen. -> npm install express body-parser mysql express-session multer
+4. Geben Sie den Befehl node server.js (falls es nicht funktioniert: node .\server.js) ein, um den Server zu starten.
+5. Die Webseite ist unter localhost:3000 erreichbar.
 
 ## Quellen
 
