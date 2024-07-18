@@ -1,2 +1,33 @@
-# Arcade-Hall
-Praktikumsprojekt Arcade-Hall (PHP &amp; node,js)
+Arcade Hall
+Dieses Projekt ist eine Website, die mithilfe von HTML, CSS und JavaScript entwickelt wurde. In dieser Readme-Datei findest du Informationen zur Installation von Visual Studio Code, Node.js und den erforderlichen Erweiterungen. Außerdem wird erklärt, wie du den Projektordner öffnen und die Website aufrufen kannst.
+
+Installation
+Visual Studio Code
+Visual Studio Code ist ein leistungsstarker und plattformübergreifender Code-Editor. Du kannst Visual Studio Code von der offiziellen Website herunterladen und installieren: https://code.visualstudio.com/
+
+Node.js
+Node.js ist eine JavaScript-Laufzeitumgebung, die es ermöglicht, JavaScript-Code außerhalb des Browsers auszuführen. Stelle sicher, dass du Node.js in der Version v12.22.9 oder höher installiert hast. Du kannst Node.js von der offiziellen Website herunterladen und installieren: https://nodejs.org/
+
+Erweiterungen
+Um dieses Projekt zu entwickeln, benötigst du bestimmte Erweiterungen für Visual Studio Code. Du kannst die folgenden Erweiterungen über den Erweiterungs-Manager in Visual Studio Code installieren:
+
+Express: Diese Erweiterung bietet Unterstützung beim Entwickeln von Express.js-Anwendungen.
+fs: Diese Erweiterung stellt Funktionen zum Lesen und Schreiben von Dateien bereit.
+ejs: Diese Erweiterung ermöglicht die Verwendung der EJS (Embedded JavaScript) Template Engine.
+Projektordner öffnen
+Lade den Projektordner herunter oder klonen ihn von diesem Repository.
+Öffne Visual Studio Code.
+Wähle "Datei" und dann "Ordner öffnen" aus dem Menü.
+Navigiere zum heruntergeladenen Projektordner und wähle ihn aus.
+Website aufrufen
+Öffne den Projektordner in Visual Studio Code.
+Navigiere in den Unterordner "Website-1Homepage".
+Doppelklicke auf die "index.html"-Datei, um die Website in deinem Standardbrowser zu öffnen.
+Quellen
+Folgende Quellen haben bei der Entwicklung und beim Erlernen der Website geholfen:
+
+W3Schools
+ChatGPT
+YouTube
+Erstellt von
+Lukas Zasada & James Walter
