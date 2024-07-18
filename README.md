@@ -10,6 +10,10 @@ Die README-Datei erklärt, worum es in diesem Projekt geht und wie man es benutz
 
 Visual Studio Code ist ein leistungsstarker und plattformübergreifender Code-Editor. Du kannst Visual Studio Code von der offiziellen Website herunterladen und installieren: [Visual Studio Code](https://code.visualstudio.com/)
 
+### Installation von XAMPP
+
+XAMPP ermöglicht das Installieren und Konfigurieren des Webservers Apache mit der Datenbank. Hier zum Download von [XAMPP](https://www.apachefriends.org/de/index.html)
+
 ### Installation von node.js
 
 Über den folgenden Link, kannst du dir von der offiziellen Website, node.js herunterladen. [Node.js](https://nodejs.org/en)
@@ -31,10 +35,12 @@ Visual Studio Code ist ein leistungsstarker und plattformübergreifender Code-Ed
 ## Datenbank einrichten
 
 1. Die Datei arcade.sql herunterladen.
-2. Einloggen und Datenbank auswählen: Melde dich bei phpMyAdmin an und wähle die Datenbank aus, in die du importieren möchtest.
-3. Importieren auswählen: Klicke auf "Importieren" oben im Menü.
-4. Datei auswählen: Klicke auf "Datei auswählen" und suche die SQL-Datei auf deinem Computer, die du importieren möchtest.
-5. Import starten: Klicke auf "OK", um den Importvorgang zu starten. phpMyAdmin wird die Datei hochladen und die darin enthaltenen SQL-Befehle ausführen.
+2. Stellen Sie sicher, dass XAMPP mit Apache und MySQL gestartet ist.
+3. Gehen sie auf die Datenbank Seite mit der URL: http://localhost/phpmyadmin/
+4. Einloggen und Datenbank auswählen: Melde dich bei phpMyAdmin an und wähle die Datenbank aus, in die du importieren möchtest.
+5. Importieren auswählen: Klicke auf "Importieren" oben im Menü.
+6. Datei auswählen: Klicke auf "Datei auswählen" und suche die SQL-Datei auf deinem Computer, die du importieren möchtest.
+7. Import starten: Klicke auf "OK", um den Importvorgang zu starten. phpMyAdmin wird die Datei hochladen und die darin enthaltenen SQL-Befehle ausführen.
 
 ## Website aufrufen (PHP Version)
 
