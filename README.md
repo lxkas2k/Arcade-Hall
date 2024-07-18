@@ -70,6 +70,12 @@ Folgende Quellen haben bei der Entwicklung und beim Erlernen der Website geholfe
 - [ChatGPT](https://www.chatgpt.com/)
 - [YouTube](https://www.youtube.com/)
 
+## Information
+
+Das node.js Projekt ist eine vollständige Version, die am besten funktioniert! Bei dem php Projekt fehlen einige Features, somit ist diese Version unvollständig und hat einige Fehler.
+
+Empfehlung: Die node.js Version verwenden :)
+
 ## Erstellt von
 
 Lukas Zasada & Dominik Pawel Jurczak
